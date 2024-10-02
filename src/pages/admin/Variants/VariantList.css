@@ -1,0 +1,58 @@
+/* src/pages/admin/Variants/VariantList.css */
+
+.variant-list-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.page-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.variant-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Space above the table */
+}
+
+.variant-table th, .variant-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.variant-table th {
+    background-color: #f5f5f5;
+}
+
+.variant-image {
+    width: 80px; /* Adjust width for consistency */
+    height: auto; /* Keep the aspect ratio */
+    border-radius: 5px;
+}
+
+.edit-button, .remove-button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.remove-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.variant-image{
+    width:50px;
+    height:50px;
+}

@@ -1,0 +1,97 @@
+/* ProductDetails.css */
+
+.product-details-row {
+    margin-top: 30px;
+}
+
+.product-image {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    objectFit: 'cover';
+}
+
+.product-details-card {
+    background-color: #f8f9fa; /* Light background */
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    color:#E6B800; /* Yellow color */
+    margin: 10px 0;
+}
+
+.quantity-input {
+    width: 60px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.btn-add-to-cart {
+    background-color: #ffc107; /* Yellow color */
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.customer-reviews-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.variant-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.variant-button {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+
+
+.selected {
+    color: white !important;
+    border-color: #007bff !important;
+}
+
+.color-swatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+}
+.color-variant {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Circular button */
+    padding: 0; /* Remove padding for color button */
+}
+
+.color-variant.selected {
+    border: 2px solid #000; /* Highlight selected color */
+}
+
+.quantity-input {
+    width: 60px;
+}

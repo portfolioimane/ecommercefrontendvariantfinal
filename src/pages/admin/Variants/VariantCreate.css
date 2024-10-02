@@ -1,0 +1,114 @@
+.create-variant-container {
+    padding: 20px;
+}
+
+.create-variant-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.submit-button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.image-preview {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+.create-variant-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.create-variant-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+select:focus {
+    border-color: #007bff; /* Bootstrap primary color */
+    background-color: #fff;
+    outline: none; /* Remove default outline */
+}
+
+select option {
+    padding: 10px;
+}
+
+.color-swatch {
+    width: 50px;
+    height: 30px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.image-preview {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+}
+
+.submit-button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
